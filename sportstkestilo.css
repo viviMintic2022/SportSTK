@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
 header{
     background: url(SOPORTESTALLERHTML/BANNERS/productos.jpg)no-repeat;
     background-size: cover;
@@ -21,4 +29,73 @@ ul {
 li {
     flex-grow: 3;
     text-align: center;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #1700ae3b;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+    margin-top: 120px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box .reposi{
+    text-align: center;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #000000;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    background-color: #0d2033;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 300ms ease;
+    margin-left: 62px;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(251, 255, 0);
+}
+ion-icon{
+    margin-top: 30px;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+.pie-pagina .grupo-1 .box .uni img{
+    width: 250px;
+    margin-top: 150px;
 }
